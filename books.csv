@@ -1,0 +1,204 @@
+INSERT INTO public.books (author_id, firstname, lastname, city, book_id)
+SELECT 2, 'Ernest', 'Hemingway', 'Paris', 102
+UNION ALL
+SELECT 3, 'Jane', 'Austen', 'Bath', 103
+UNION ALL
+SELECT 4, 'Leo', 'Tolstoy', 'Moscow', 104
+UNION ALL
+SELECT 5, 'Virginia', 'Woolf', 'London', 105
+UNION ALL
+SELECT 6, 'Gabriel', 'Marquez', 'Aracataca', 106
+UNION ALL
+SELECT 7, 'Toni', 'Morrison', 'Lorain', 107
+UNION ALL
+SELECT 8, 'George', 'Orwell', 'Motihari', 108
+UNION ALL
+SELECT 9, 'Chinua', 'Achebe', 'Ogidi', 109
+UNION ALL
+SELECT 10, 'J.R.R.', 'Tolkien', 'Bloemfontein', 110
+UNION ALL
+SELECT 11, 'Albert', 'Camus', 'Mondovi', 111
+UNION ALL
+SELECT 12, 'Zadie', 'Smith', 'London', 112
+UNION ALL
+SELECT 13, 'Homer', 'Unknown', 'Chios', 113
+UNION ALL
+SELECT 14, 'Mary', 'Shelley', 'London', 114
+UNION ALL
+SELECT 15, 'Kurt', 'Vonnegut', 'Indianapolis', 115
+UNION ALL
+SELECT 16, 'Isabel', 'Allende', 'Lima', 116
+UNION ALL
+SELECT 17, 'Haruki', 'Murakami', 'Kyoto', 117
+UNION ALL
+SELECT 18, 'Maya', 'Angelou', 'St. Louis', 118
+UNION ALL
+SELECT 19, 'Ralph', 'Ellison', 'Oklahoma City', 119
+UNION ALL
+SELECT 20, 'Margaret', 'Atwood', 'Ottawa', 120
+UNION ALL
+SELECT 21, 'James', 'Baldwin', 'Harlem', 121
+UNION ALL
+SELECT 22, 'Emily', 'Bronte', 'Thornton', 122
+UNION ALL
+SELECT 23, 'Herman', 'Melville', 'New York', 123
+UNION ALL
+SELECT 24, 'Flannery', 'OConnor', 'Savannah', 124
+UNION ALL
+SELECT 25, 'Ray', 'Bradbury', 'Waukegan', 125
+UNION ALL
+SELECT 26, 'Octavia', 'Butler', 'Pasadena', 126
+UNION ALL
+SELECT 27, 'Aldous', 'Huxley', 'Godalming', 127
+UNION ALL
+SELECT 28, 'Arthur', 'Miller', 'New York', 128
+UNION ALL
+SELECT 29, 'Edith', 'Wharton', 'New York', 129
+UNION ALL
+SELECT 30, 'William', 'Faulkner', 'New Albany', 130
+UNION ALL
+SELECT 31, 'Franz', 'Kafka', 'Prague', 131
+UNION ALL
+SELECT 32, 'Doris', 'Lessing', 'Kermanshah', 132
+UNION ALL
+SELECT 33, 'Italo', 'Calvino', 'Santiago de Las Vegas', 133
+UNION ALL
+SELECT 34, 'Eudora', 'Welty', 'Jackson', 134
+UNION ALL
+SELECT 35, 'Philip', 'Roth', 'Newark', 135
+UNION ALL
+SELECT 36, 'Willa', 'Cather', 'Winchester', 136
+UNION ALL
+SELECT 37, 'Samuel', 'Beckett', 'Foxrock', 137
+UNION ALL
+SELECT 38, 'Ayn', 'Rand', 'St. Petersburg', 138
+UNION ALL
+SELECT 39, 'Jorge', 'Borges', 'Buenos Aires', 139
+UNION ALL
+SELECT 40, 'Sylvia', 'Plath', 'Boston', 140
+UNION ALL
+SELECT 41, 'Truman', 'Capote', 'New Orleans', 141
+UNION ALL
+SELECT 42, 'Amy', 'Tan', 'Oakland', 142
+UNION ALL
+SELECT 43, 'Ken', 'Kesey', 'La Junta', 143
+UNION ALL
+SELECT 44, 'Gillian', 'Flynn', 'Kansas City', 144
+UNION ALL
+SELECT 45, 'Neil', 'Gaiman', 'Portchester', 145
+UNION ALL
+SELECT 46, 'Donna', 'Tartt', 'Greenwood', 146
+UNION ALL
+SELECT 47, 'Khaled', 'Hosseini', 'Kabul', 147
+UNION ALL
+SELECT 48, 'Chimamanda', 'Adichie', 'Abba', 148
+UNION ALL
+SELECT 49, 'Jon', 'Krakauer', 'Brookline', 149
+UNION ALL
+SELECT 50, 'Elizabeth', 'Gilbert', 'Waterbury', 150
+UNION ALL
+SELECT 51, 'Jeffrey', 'Eugenides', 'Detroit', 151
+UNION ALL
+SELECT 52, 'Celeste', 'Ng', 'Pittsburgh', 152
+UNION ALL
+SELECT 53, 'Colson', 'Whitehead', 'New York', 153
+UNION ALL
+SELECT 54, 'Jodi', 'Picoult', 'New York', 154
+UNION ALL
+SELECT 55, 'Liane', 'Moriarty', 'Sydney', 155
+UNION ALL
+SELECT 56, 'Paula', 'Hawkins', 'Salisbury', 156
+UNION ALL
+SELECT 57, 'Fredrik', 'Backman', 'Stockholm', 157
+UNION ALL
+SELECT 58, 'Garth', 'Nix', 'Melbourne', 158
+UNION ALL
+SELECT 59, 'Veronica', 'Roth', 'New York', 159
+UNION ALL
+SELECT 60, 'Rainbow', 'Rowell', 'Omaha', 160
+UNION ALL
+SELECT 61, 'Andy', 'Weir', 'Davis', 161
+UNION ALL
+SELECT 62, 'Blake', 'Crouch', 'Statesville', 162
+UNION ALL
+SELECT 63, 'Tana', 'French', 'Burlington', 163
+UNION ALL
+SELECT 64, 'Matt', 'Haig', 'Sheffield', 164
+UNION ALL
+SELECT 65, 'S.J.', 'Watson', 'St. Albans', 165
+UNION ALL
+SELECT 66, 'Anthony', 'Doerr', 'Cleveland', 166
+UNION ALL
+SELECT 67, 'Erich', 'Maria Remarque', 'Osnabrück', 167
+UNION ALL
+SELECT 68, 'J.D.', 'Salinger', 'New York', 168
+UNION ALL
+SELECT 69, 'William', 'Golding', 'Newquay', 169
+UNION ALL
+SELECT 70, 'Oscar', 'Wilde', 'Dublin', 170
+UNION ALL
+SELECT 71, 'Charles', 'Dickens', 'Portsmouth', 171
+UNION ALL
+SELECT 72, 'Mark', 'Twain', 'Florida', 172
+UNION ALL
+SELECT 73, 'Stephen', 'King', 'Portland', 173
+UNION ALL
+SELECT 74, 'Dan', 'Brown', 'Exeter', 174
+UNION ALL
+SELECT 75, 'Suzanne', 'Collins', 'Hartford', 175
+UNION ALL
+SELECT 76, 'Khaled', 'Hosseini', 'Kabul', 176
+UNION ALL
+SELECT 77, 'Stieg', 'Larsson', 'Skellefteå', 177
+UNION ALL
+SELECT 78, 'C.S.', 'Lewis', 'Belfast', 178
+UNION ALL
+SELECT 79, 'Beatrix', 'Potter', 'Kensington', 179
+UNION ALL
+SELECT 80, 'A.A.', 'Milne', 'London', 180
+UNION ALL
+SELECT 81, 'Roald', 'Dahl', 'Llandaff', 181
+UNION ALL
+SELECT 82, 'Dr.', 'Seuss', 'Springfield', 182
+UNION ALL
+SELECT 83, 'Shel', 'Silverstein', 'Chicago', 183
+UNION ALL
+SELECT 84, 'Judy', 'Blume', 'Elizabeth', 184
+UNION ALL
+SELECT 85, 'Laura', 'Wilder', 'Pepin', 185
+UNION ALL
+SELECT 86, 'E.B.', 'White', 'Mount Vernon', 186
+UNION ALL
+SELECT 87, 'Kenneth', 'Grahame', 'Edinburgh', 187
+UNION ALL
+SELECT 88, 'Michael', 'Crichton', 'Chicago', 188
+UNION ALL
+SELECT 89, 'John', 'Grisham', 'Jonesboro', 189
+UNION ALL
+SELECT 90, 'Lee', 'Child', 'Coventry', 190
+UNION ALL
+SELECT 91, 'J.K.', 'Rowling', 'Yate', 191
+UNION ALL
+SELECT 92, 'Terry', 'Pratchett', 'Beaconsfield', 192
+UNION ALL
+SELECT 93, 'Ursula', 'Le Guin', 'Berkeley', 193
+UNION ALL
+SELECT 94, 'Isaac', 'Asimov', 'Petrovichi', 194
+UNION ALL
+SELECT 95, 'Philip K.', 'Dick', 'Chicago', 195
+UNION ALL
+SELECT 96, 'Frank', 'Herbert', 'Tacoma', 196
+UNION ALL
+SELECT 97, 'Robert', 'Heinlein', 'Butler', 197
+UNION ALL
+SELECT 98, 'Neal', 'Stephenson', 'Fort Meade', 198
+UNION ALL
+SELECT 99, 'Brandon', 'Sanderson', 'Lincoln', 199
+UNION ALL
+SELECT 100, 'George R.R.', 'Martin', 'Bayonne', 200
+UNION ALL
+SELECT 101, 'Rick', 'Riordan', 'San Antonio', 201;
+
+
+
+
